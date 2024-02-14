@@ -1,0 +1,21 @@
+{
+    "name": "reactnest",
+    "version": "1.0.0",
+    "description": "Projet React et NestJS",
+    "main": "index.js",
+    "scripts": {
+        "start:server": "cd server && npm start",
+        "start:client": "cd client && npm start",
+        "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "react",
+        "nestjs"
+    ],
+    "author": "Doli",
+    "license": "MIT",
+    "devDependencies": {
+        "concurrently": "^7.6.0"
+    }
+}

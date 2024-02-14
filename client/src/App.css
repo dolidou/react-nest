@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a{
+  color : #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: #6699CC;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width:300px;
+  border: 1px solid skyblue;
+}
+
+.register{
+  margin-left: 40%;
+}
+
+.login {
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.navright{
+  text-align: right;
+}
+.appButton{
+  margin-right: 60%;
+  padding: 10px;
+  width:150px;
+  background-color: skyblue;
+  border: 1px solid skyblue;
+  cursor: pointer;
+}
+
+.bg-sky {
+  background-color:#CCCCCC;
+
+}
+
+.btn-sky {
+  background-color: skyblue;
+  font-size: 12px; /* Ajustez la taille des boutons selon vos besoins */
+  padding: 5px 10px;
+
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-size: 14px; /* Ajustez la taille de la police selon vos besoins */
+  margin-bottom: 5px; /* Ajustez la marge inférieure selon vos besoins */
+}
+
+.input-field {
+  margin-bottom: 10px; /* Ajustez la marge inférieure selon vos besoins */
+}
+
+.btn-pink {
+  background-color: #FFCCCC;
+  font-size: 12px; /* Ajustez la taille des boutons selon vos besoins */
+  padding: 5px 10px;
+}
+
+.btn-purple {
+  background-color: #CC66CC;
+  font-size: 12px; /* Ajustez la taille des boutons selon vos besoins */
+  padding: 5px 10px;
+}
+
+.btn-submit {
+  color : #fff;
+  background-color: #663366;
+}
+.custom-mdb-table th,
+.custom-mdb-table td {
+  font-size: 13px; 
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.client-details {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.client-info {
+  font-size: 16px;
+  color: #333;
+}
+
